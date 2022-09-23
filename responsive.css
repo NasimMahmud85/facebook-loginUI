@@ -1,0 +1,62 @@
+@media all and (max-width: 1205px){
+	.logo_area {
+	    width: 50%;
+	    float: left;
+	}
+	.login_area {
+	    width: 50%;
+	    float: left;
+	}
+	.signUp_left {
+    width: 50%;
+    float: left;
+    margin-right: 0;
+
+	}
+	.signUp_right{
+		width: 50%;
+		float: left;
+	}
+}
+@media all and (max-width: 1205px){
+	.logo_area {
+	    width: 100%;
+	    float: left;
+	}
+	.login_area {
+	    width: 100%;
+	    float: left;
+	}
+}
+@media all and (max-width: 1000px){
+		.logo_area {
+	    width: 100%;
+	    float: none;
+	}
+	.login_area {
+	    width: 100%;
+	    float: none;
+	}
+		.login_first {
+	    float: none;
+	}	
+	.login_second {
+	    float: none;
+	}
+		.login_area input {
+	    width: 100%;
+	}
+	.signUp_right {
+	    width: 100%;
+	    float: left;
+	}
+	.sign_left{
+		display: none;
+	}
+	.signUp_left p {
+	    display: none;
+	}
+	.signUp_left img{
+		display: none;
+	}
+}

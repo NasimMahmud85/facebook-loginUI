@@ -1,0 +1,272 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	font-family: sens serif;
+}
+a:hover{
+	text-decoration: underline;
+}
+.header_area {
+    background: #3b5999;
+    padding: 5px 0px;
+}
+.header_area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.middle_area{
+	width: 80%;
+	margin: auto;
+}
+.logo_area {
+    width: 60%;
+    float: left;
+}
+.login_area{
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+}
+.login_area label{
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.login_area input{
+	display: block;
+	margin-right: 10px;
+	border: 1px solid #628de7;
+	padding: 2px;
+}
+.login_first {
+    float: left;
+}
+
+.login_second {
+    float: left;
+}
+.login_second a{
+	color: #afbce1;
+}
+input[type="submit"] {
+    margin-top: 18px;
+    border: 1px solid #628de7;
+    background: #628de7;
+    color: #efe7e7;
+    cursor: pointer;
+    padding: 2px 15px;
+}
+input[type="submit"]:hover{
+	color: #f0ff09;
+}
+
+/*=============================
+sign Up area
+=============================*/
+
+.singUp_area {
+    background: linear-gradient(#ffffff,#D4D9E8);
+}
+.signUp_form{
+
+}
+.signUp_left p{
+	color: #3b5999;
+	font-size: 20px;
+	font-weight: bold;
+	width: 80%;
+
+}
+.signUp_left {
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+
+}
+.middle_area:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.signUp_right{
+	width: 45%;
+	float: left;
+}
+
+.signUp_right h1 {
+    color: #4a4545;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+.signUp_right > p{
+	color: #4a4545;
+	font-size: 20px;
+	margin: 10px 0px;
+}
+.signUp_right input[type="text"],.signUp_right input[type="password"]{
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 3px;
+	border:1px solid #bdc7d8;
+	box-sizing: border-box;
+}
+.username{}
+.signUp_right .username input:nth-child(1){
+	width: 50%;
+	float: left;
+}
+.signUp_right .username input:nth-child(2){
+	width: 47%;
+	float: right;
+}
+.birth_day:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.birth_day h3{
+    color: #4a4545;
+    font-size: 25px;
+    margin: 3px 0px;
+    font-weight: normal;
+}
+.birth_day_option{
+	float: left;
+	margin-right: 10px;
+}
+.birth_day_option select{
+	padding: 6px 4px;
+	font-size: 17px;
+	border: 1px solid #bdc7d8;
+}
+.birth_day_link {
+	float: left;
+	width: 160px;
+}
+.birth_day_link a{
+	color: #365899;
+	font-size: 13px;
+}
+.gender label{
+	color: #4a4545;
+	font-size: 20px;
+	display: inline-block;
+	margin-top: 5px;
+	cursor: pointer;
+}
+p.policy{
+	font-size: 14px;
+	color: #4a4545;
+	width: 76%;
+}
+p.policy a{
+	color:#1425f1;
+
+}
+.signUp_right input[type="submit"] {
+    background: linear-gradient(#67ae55,#678843);
+    padding: 10px 40px;
+    font-size: 20px;
+    color: #fff;
+    box-shadow: 0px 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.signUp_right input[type="submit"]:hover{
+	 background: linear-gradient(#678843,#67ae55);	
+}
+.signUp_right h4{
+	color: #666;
+	font'-size: 15px;
+}
+.signUp_right h4 a{
+	color:#1425f1;
+}
+
+/*===========================
+footer css
+===========================*/
+
+footer.footer_area {
+    width: 1086px;
+    margin: auto;
+}
+.first_footer {
+    width: 80%;
+    margin: auto;
+}
+
+.first_footer ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.first_footer ul li {
+    float: left;
+}
+
+.first_footer ul li a {
+    padding: 0px 7px;
+    font-size: 13px;
+    color: #b1a4a4;
+    font-family: arial;
+}
+.first_footer ul input[type="submit"]{
+	margin: 0;
+	font-size: 16px;
+	background: #e9e6e0;
+	color: #b19b9b;
+	padding: 0px 26px;
+	font-weight: bold;
+	float: left;
+}
+
+.second_footer {
+    width: 81%;
+    margin: auto;
+}
+
+.second_footer ul {
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.second_footer ul li {
+    float: left;
+}
+
+.second_footer ul li a {
+    padding: 1px 5px;
+    font-size: 13px;
+    font-family: arial;
+    color: #b1a4a4;
+}
+
+.second_footer p{
+	font-size: 13px;
+	font-family: arial;
+	color: #b1a4a4
+
+}
+
+
+
+
+
+
+
+
+
+
